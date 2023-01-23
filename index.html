@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact form for COMPANY." />
+    <title>Contact form</title>
+  </head>
+  <body>
+    <!-- <img src="logo.png" class="logo" alt="Logo" width="912" height="408" /> -->
+    <img
+      src="https://via.placeholder.com/912x408.png?text=Acme+Agency"
+      class="logo"
+      alt="Logo"
+      width="912"
+      height="408"
+    />
+
+    <h1>Contact Us</h1>
+
+    <p>
+      For business inquires with our clients, please fill out the form below
+    </p>
+
+    <form id="contactform">
+      <label for="name">Name:</label>
+      <input
+        class="form-field"
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Name"
+        required
+      /><br />
+      <label for="email">Email:</label>
+      <input
+        class="form-field"
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Email"
+        required
+      /><br />
+      <label for="phone">Phone:</label>
+      <input
+        class="form-field"
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Phone"
+      /><br />
+      <label for="company">Company:</label>
+      <input
+        class="form-field"
+        type="text"
+        id="company"
+        name="company"
+        placeholder="Company"
+      /><br />
+      <label for="message">Message:</label>
+      <textarea
+        class="form-field"
+        id="message"
+        name="message"
+        rows="10"
+        placeholder="I'm interested in..."
+        required
+      ></textarea
+      ><br />
+      <input id="submitbtn" class="button" type="submit" value="Submit" />
+    </form>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
